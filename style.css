@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  border: 1px solid blue;
+  justify-content: center;
+  align-items: center;
+}
+.box.yellow {
+  background-color: yellow;
+}
+.box.green {
+  background-color: green;
+}
