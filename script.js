@@ -13,11 +13,11 @@ $(document).ready(function() {
       success: function(data) {
         var numeroRandom = data.response;
         if (numeroRandom > 5) {
-          $(clicked).removeClass();
+          $(clicked).removeClass('green yellow');
           $(clicked).text(numeroRandom).addClass('green');
         }
         else {
-          $(clicked).removeClass();
+          $(clicked).removeClass('green yellow');
           $(clicked).text(numeroRandom).addClass('yellow');
         }
       },
