@@ -23,3 +23,7 @@
 .box.green {
   background-color: green;
 }
+
+.template {
+  display: none;
+}

@@ -3,6 +3,16 @@
 
 $(document).ready(function() {
 
+  function creaBox() {
+    numeroBox = 36;
+    for (var i = 0; i < numeroBox ; i++) {
+      var template = $('.template .box').clone();
+      $('.container').append(template);
+    }
+  }
+
+  creaBox();
+
   $('.box').click(function() {
     var clicked = this;
 
