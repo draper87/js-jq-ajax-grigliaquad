@@ -7,12 +7,17 @@
 .container {
   display: flex;
   flex-wrap: wrap;
+  width: 700px;
+  height: 700px;
+  margin: 20px auto;
+  justify-content: center;
+  align-items: center;
 }
 
 .box {
   display: flex;
-  width: 100px;
-  height: 100px;
+  width: calc(100% / 6);
+  height: calc(100% / 6);
   border: 1px solid blue;
   justify-content: center;
   align-items: center;
